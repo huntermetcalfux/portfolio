@@ -18,17 +18,17 @@ body {
   
   #featuredProduct {
     grid-area: featuredProduct;
-    background-image: url(https://images.unsplash.com/photo-1586296835409-fe3fe6b35b56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+    background-image: url("https://images.unsplash.com/photo-1650137953679-0fe3b3985aac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=973&q=80");
   }
   
   #secondaryProduct {
     grid-area: secondaryProduct;
-    background-image: url(https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=755&q=80);
+    background-image: url("https://images.unsplash.com/photo-1656597256570-ee98218c7175?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80");
   }
   
   #CTA {
     grid-area: CTA;
-    background-image: url(https://images.unsplash.com/photo-1518349619113-03114f06ac3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-image: url("https://images.unsplash.com/photo-1647336960683-411efff7f376?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3087&q=80");
     justify-content: space-around;
     cursor: pointer;
   }
@@ -76,22 +76,27 @@ body {
   
   #bookcases {
     grid-area: bookcases;
-    background-image: url(https://images.unsplash.com/photo-1611095564350-2cbe940a8d99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80)
+    background-image: url("https://images.unsplash.com/photo-1533669955142-6a73332af4db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2174&q=80")
   
   }
   #bedroom {
     grid-area: bedroom;
-    background-image: url(https://images.unsplash.com/photo-1528033978085-52f315289665?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-image: url("https://images.unsplash.com/photo-1513807016779-d51c0c026263?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
   }
   
   #couches {
     grid-area: couches;
-    background-image: url(https://images.unsplash.com/photo-1426024120108-99cc76989c71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80);
+    background-image: url("https://images.unsplash.com/photo-1560843300-ce9370f96b56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
   }
   
   #patio {
     grid-area: patio;
-    background-image: url(https://images.unsplash.com/photo-1529071242804-840f9a164b8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+    background-image: url("https://images.unsplash.com/photo-1527359443443-84a48aec73d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  }
+  
+  #desks {
+    grid-area: desks;
+    background-image: url("https://images.unsplash.com/photo-1515965885361-f1e0095517ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
   }
   
   .categoryGridArea {
@@ -113,6 +118,9 @@ body {
     border-bottom: 5px solid #237b9e;
   }
   
+  
+  /* Navigation CSS */
+  /* CHECK OUT THIS CODE BELOW IF YOU WANT TO GET A REFRESHER ON FLEX */
   
   #navBar {
     display: flex;
@@ -140,7 +148,7 @@ body {
     width: 25%;
   }
   .icons img {
-    margin: 5px;
+    margin: 15px;
     cursor: pointer;
   }
   .highlight {
